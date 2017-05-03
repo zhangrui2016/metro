@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/metro.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<!--公共头部 s-->
+<div class="header">
+  <div class="con-wid">
+      <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+      <div class="nav">
+          <ul>
+              <li class="active"><a href="#">首页</a> </li>
+              <li><a href="#">我要投资</a> </li>
+              <li><a href="#">安全保障</a> </li>
+              <li><a href="#">关于我们</a> </li>
+              <li><a href="#">帮助中心</a> </li>
+         </ul>
+      </div>
+      <div class="header-icon-link">
+          <div class="menu-operate"><img src="images/menuhide.png"></div>
+          <div><a href="#"><img src="images/sina.png"></a></div>
+          <div class="relative weixin">
+              <a href="#"><img src="images/weixin.png"></a>
+              <div class="showewm">
+                  <p>扫描关注中智魔方微信</p>
+                  <img src="images/img-ewm.png" class="ewm">
+                  <img src="images/arr-up.png" class="arr-up">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--公共头部 e-->
+<div class="indexcon">
+    <div class="backcon">
+        <a class="right" href="#">返回普通版>></a>
+    </div>
+    <div class="topcon">
+       <div class="left-login">
+           <div class="before-login">
+               <div class="before-login-tab">
+                   <span class="current">登陆</span>
+                   <span class="regspan">注册</span>
+               </div>
+               <div class="before-login-con">
+                   <!--登陆 s-->
+                   <div class="logincon current">
+                      <div class="input-div">
+                          <input type="text" class="iptext" data-default="用户名/手机号/邮箱" value="用户名/手机号/邮箱">
+                          <div class="error-tips">用户名不存在</div>
+                      </div>
+                      <div class="input-div input-pasword">
+                          <input type="text" class="iptext" data-default="密码" value="密码">
+                          <div class="error-tips">密码错误</div>
+                      </div>
+                      <div class="input-div input-yzm">
+                          <input type="text" class="iptext yzm" data-default="验证码" value="验证码">
+                          <img src="images/index-yzm.png" class="index-yzmimg">
+                          <div class="error-tips">验证码错误</div>
+                      </div>
+                      <div class="password-div">
+                          <div class="left"><input type="checkbox" id="password"><label for="password">记住密码</label></div>
+                          <div class="right"><a href="#">忘记密码？</a></div>
+                      </div>
+                      <div class="loginbt-div">
+                          <input type="button" value="登陆" class="login-btn">
+                      </div>
+                   </div>
+                   <!--登陆 e-->
+                   <!--注册 s-->
+                   <div class="registcon">
+                       <div class="input-div input-jishu">
+                           <input type="text" class="iptext" data-default="用户名" value="用户名">
+                           <div class="error-tips">用户名错误提示</div>
+                       </div>
+                       <div class="input-div input-oushu">
+                           <input type="text" class="iptext" data-default="密码" value="密码">
+                           <div class="error-tips">密码错误提示</div>
+                       </div>
+                       <div class="input-div input-jishu">
+                           <input type="text" class="iptext" data-default="确认密码" value="确认密码">
+                           <div class="error-tips">密码错误提示</div>
+                       </div>
+                       <div class="input-div input-oushu">
+                           <input type="text" class="iptext" data-default="手机号" value="手机号">
+                           <div class="error-tips">手机号错误提示</div>
+                       </div>
+                       <div class="input-div input-jishu">
+                           <input type="text" class="iptext" data-default="推荐人手机号" value="推荐码">
+                           <div class="error-tips">手机号错误提示</div>
+                       </div>
+                       <div class="input-div input-oushu">
+                           <input type="text" class="iptext yzm" data-default="验证码" value="验证码">
+                           <img src="images/index-yzm.png" class="index-yzmimg">
+                           <div class="error-tips">验证码错误</div>
+                       </div>
+                       <div class="loginbt-div">
+                           <input type="button" value="登陆" class="login-btn">
+                       </div>
+                   </div>
+                   <!--注册 e-->
+               </div>
+           </div>
+       </div>
+       <div class="right-swaper">
+           <div class="touzi-con">
+               <div class="touzi-con-detail">
+                   <ul>
+                       <li>
+                           <div class="type-dai"><img src="images/che-dai.png"></div>
+                           <div class="red-bag">
+                               <p class="p1">+<span>1</span>%</p>
+                               <p class="p2">红包</p>
+                           </div>
+                           <div class="touzi-pad-con">
+                               <div class="title">
+                                   <span>车辆抵押贷-CD00014</span>
+                                   <img src="images/new-user.png" class="type">
+                                   <img src="images/qian.png" class="type">
+                               </div>
+                               <div class="touzi-item">
+                                   <ul>
+                                       <li class="lilv">
+                                           <div class="type-title">年化利率</div>
+                                           <div class="result-num"><span>13.01</span>%</div>
+                                       </li>
+                                       <li class="allmoney">
+                                           <div class="type-title">融资总额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="ketou">
+                                           <div class="type-title">可投金额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="time">
+                                           <div class="type-title">投资周期（天）</div>
+                                           <div class="result-num"><span>361</span>（天）</div>
+                                       </li>
+                                       <li class="hezuo">
+                                           <div class="type-title">合作机构</div>
+                                           <div class="result-num"><img src="images/bao.png" class="img">蓝通担保</div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="touzi-detail">
+                                   <div class="touzi-detail-list">
+                                       <ul>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-jd.png"><span>募资进度</span> </div>
+                                               <div class="content">
+                                                   <div class="progressBackgroundxi"><div style="width: 50%;" class="progressBarBluexi"></div></div>
+                                                   <span>50%</span>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-time.png"><span>到期时间</span> </div>
+                                               <div class="content">2016-07-21</div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-huan.png"><span>还款方式</span> </div>
+                                               <div class="content">一次性还本付息</div>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="touzi-detail-btn"><a href="#">查看</a></div>
+                               </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="type-dai"><img src="images/che-dai.png"></div>
+                           <div class="red-bag">
+                               <p class="p1">+<span>0.5</span>%</p>
+                               <p class="p2">红包</p>
+                           </div>
+                           <div class="touzi-pad-con">
+                               <div class="title">
+                                   <span>车辆抵押贷-CD00015</span>
+                                   <img src="images/new-user.png" class="type">
+                                   <img src="images/qian.png" class="type">
+                               </div>
+                               <div class="touzi-item">
+                                   <ul>
+                                       <li class="lilv">
+                                           <div class="type-title">年化利率</div>
+                                           <div class="result-num"><span>8.00</span>%</div>
+                                       </li>
+                                       <li class="allmoney">
+                                           <div class="type-title">融资总额（元）</div>
+                                           <div class="result-num"><span>2,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="ketou">
+                                           <div class="type-title">可投金额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="time">
+                                           <div class="type-title">投资周期（天）</div>
+                                           <div class="result-num"><span>180</span>（天）</div>
+                                       </li>
+                                       <li class="hezuo">
+                                           <div class="type-title">合作机构</div>
+                                           <div class="result-num"><img src="images/bao.png" class="img">蓝通担保</div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="touzi-detail">
+                                   <div class="touzi-detail-list">
+                                       <ul>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-jd.png"><span>募资进度</span> </div>
+                                               <div class="content">
+                                                   <div class="progressBackgroundxi"><div style="width: 80%;" class="progressBarBluexi"></div></div>
+                                                   <span>80%</span>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-time.png"><span>到期时间</span> </div>
+                                               <div class="content">2016-07-26</div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-huan.png"><span>还款方式</span> </div>
+                                               <div class="content">按月还息，到期还本</div>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="touzi-detail-btn touzi-disable-btn"><a href="#">15:00 开放投标</a></div>
+                               </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="type-dai"><img src="images/che-dai.png"></div>
+                           <div class="red-bag">
+                               <p class="p1">+<span>2</span>%</p>
+                               <p class="p2">红包</p>
+                           </div>
+                           <div class="touzi-pad-con">
+                               <div class="title">
+                                   <span>车辆抵押贷-CD00017</span>
+                                   <img src="images/new-user.png" class="type">
+                                   <img src="images/qian.png" class="type">
+                               </div>
+                               <div class="touzi-item">
+                                   <ul>
+                                       <li class="lilv">
+                                           <div class="type-title">年化利率</div>
+                                           <div class="result-num"><span>13.01</span>%</div>
+                                       </li>
+                                       <li class="allmoney">
+                                           <div class="type-title">融资总额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="ketou">
+                                           <div class="type-title">可投金额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="time">
+                                           <div class="type-title">投资周期（天）</div>
+                                           <div class="result-num"><span>361</span>（天）</div>
+                                       </li>
+                                       <li class="hezuo">
+                                           <div class="type-title">合作机构</div>
+                                           <div class="result-num"><img src="images/bao.png" class="img">蓝通担保</div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="touzi-detail">
+                                   <div class="touzi-detail-list">
+                                       <ul>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-jd.png"><span>募资进度</span> </div>
+                                               <div class="content">
+                                                   <div class="progressBackgroundxi"><div style="width: 50%;" class="progressBarBluexi"></div></div>
+                                                   <span>50%</span>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-time.png"><span>到期时间</span> </div>
+                                               <div class="content">2016-07-21</div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-huan.png"><span>还款方式</span> </div>
+                                               <div class="content">一次性还本付息</div>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="touzi-detail-btn"><a href="#">查看</a></div>
+                               </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="type-dai"><img src="images/che-dai.png"></div>
+                           <div class="red-bag">
+                               <p class="p1">+<span>0.3</span>%</p>
+                               <p class="p2">红包</p>
+                           </div>
+                           <div class="touzi-pad-con">
+                               <div class="title">
+                                   <span>车辆抵押贷-CD00018</span>
+                                   <img src="images/new-user.png" class="type">
+                                   <img src="images/qian.png" class="type">
+                               </div>
+                               <div class="touzi-item">
+                                   <ul>
+                                       <li class="lilv">
+                                           <div class="type-title">年化利率</div>
+                                           <div class="result-num"><span>10.00</span>%</div>
+                                       </li>
+                                       <li class="allmoney">
+                                           <div class="type-title">融资总额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="ketou">
+                                           <div class="type-title">可投金额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="time">
+                                           <div class="type-title">投资周期（天）</div>
+                                           <div class="result-num"><span>361</span>（天）</div>
+                                       </li>
+                                       <li class="hezuo">
+                                           <div class="type-title">合作机构</div>
+                                           <div class="result-num"><img src="images/bao.png" class="img">蓝通担保</div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="touzi-detail">
+                                   <div class="touzi-detail-list">
+                                       <ul>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-jd.png"><span>募资进度</span> </div>
+                                               <div class="content">
+                                                   <div class="progressBackgroundxi"><div style="width: 50%;" class="progressBarBluexi"></div></div>
+                                                   <span>50%</span>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-time.png"><span>到期时间</span> </div>
+                                               <div class="content">2016-07-21</div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-huan.png"><span>还款方式</span> </div>
+                                               <div class="content">一次性还本付息</div>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="touzi-detail-btn"><a href="#">查看</a></div>
+                               </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="type-dai"><img src="images/che-dai.png"></div>
+                           <div class="red-bag">
+                               <p class="p1">+<span>1</span>%</p>
+                               <p class="p2">红包</p>
+                           </div>
+                           <div class="touzi-pad-con">
+                               <div class="title">
+                                   <span>车辆抵押贷-CD00014</span>
+                                   <img src="images/new-user.png" class="type">
+                                   <img src="images/qian.png" class="type">
+                               </div>
+                               <div class="touzi-item">
+                                   <ul>
+                                       <li class="lilv">
+                                           <div class="type-title">年化利率</div>
+                                           <div class="result-num"><span>13.01</span>%</div>
+                                       </li>
+                                       <li class="allmoney">
+                                           <div class="type-title">融资总额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="ketou">
+                                           <div class="type-title">可投金额（元）</div>
+                                           <div class="result-num"><span>3,141,56</span>（元）</div>
+                                       </li>
+                                       <li class="time">
+                                           <div class="type-title">投资周期（天）</div>
+                                           <div class="result-num"><span>361</span>（天）</div>
+                                       </li>
+                                       <li class="hezuo">
+                                           <div class="type-title">合作机构</div>
+                                           <div class="result-num"><img src="images/bao.png" class="img">蓝通担保</div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="touzi-detail">
+                                   <div class="touzi-detail-list">
+                                       <ul>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-jd.png"><span>募资进度</span> </div>
+                                               <div class="content">
+                                                   <div class="progressBackgroundxi"><div style="width: 50%;" class="progressBarBluexi"></div></div>
+                                                   <span>50%</span>
+                                               </div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-time.png"><span>到期时间</span> </div>
+                                               <div class="content">2016-07-21</div>
+                                           </li>
+                                           <li>
+                                               <div class="titlea"><img src="images/icon-huan.png"><span>还款方式</span> </div>
+                                               <div class="content">一次性还本付息</div>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="touzi-detail-btn"><a href="#">查看</a></div>
+                               </div>
+                           </div>
+                       </li>
+                   </ul>
+
+               </div>
+               <div class="touzi-menu">
+                   <a href="#">
+                       <img src="images/indexico-touzi.png">
+                       <p>我要投资</p>
+                   </a>
+               </div>
+           </div>
+           <div class="indexmenu-con">
+               <div class="safe-menu">
+                   <a href="#">
+                       <img src="images/indexico-safe.png">
+                       <p>安全保障</p>
+                   </a>
+               </div>
+               <div class="about-menu">
+                   <a href="#">
+                       <img src="images/indexico-about.png">
+                       <p>安全保障</p>
+                   </a>
+               </div>
+               <div class="jifen-adv"><a href="#"><img src="images/index-adv.jpg"></a></div>
+           </div>
+       </div>
+    </div>
+    <div class="dicon">
+        <div class="index-newscon">
+          <div class="index-newsconbg">
+              <div class="title"><span>公告</span></div>
+              <div class="in-notices">
+                  <ul>
+                      <li><a href="#">美国当地时间11月4日晚在纽约苏富</a></li>
+                      <li><a href="#">晚间拍卖会上，备受瞩目的梵高油画</a></li>
+                      <li><a href="#">关于免费充值延期的广告3</a></li>
+                      <li><a href="#">关于免费充值延期的广告4</a></li>
+                      <li><a href="#">关于免费充值延期的广告5</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <div class="help-menu">
+            <a href="#">
+                <img src="images/indexico-help.png">
+                <p>帮助中心</p>
+            </a>
+        </div>
+        <div class="contact-menu">
+            <a href="#">
+                <img src="images/indexico-contact.png">
+                <p>联想我们</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<div class="footer clearfix">
+    <div class="con-wid">
+        <div class="top-foot">
+            <div class="right">
+                <span class="phone">400-633-4566</span>
+                <span class="time">9:00 - 21:00</span>
+            </div>
+            <div class="left">
+                <p class="p1"><span><a href="#">公司介绍</a></span><span><a href="#">安全保障</a></span><span><a href="#">新闻动态</a></span><span><a href="#">招贤纳士</a></span><span><a href="#">网站地图</a></span><span><a href="#">帮助中心</a></span><span><a href="#">联系我们</a></span></p>
+            </div>
+        </div>
+        <div class="bottom-foot">
+            <p class="left">© 2015 中智魔方 All rights reserved<span>|</span>中智哼网络科技有限公司<span class="bei">京ICP证 15010024号</span></p>
+            <p class="right"><a href="#"><img src="images/bo1.png" border="0" /></a><a href="#"><img src="images/bo2.png"  border="0" /></a><a href="#"><img src="images/bo3.png"  border="0" /></a><a href="#"><img src="images/bo4.png"  border="0" /></a><a href="#"><img src="images/bo5.png" border="0" /></a><a href="#"><img src="images/bo6.png" border="0" /></a></p>
+        </div>
+    </div>
+</div>
+<!--end footer-->
+
+<!--qq-->
+<div class="online-service hidden-phone">
+    <a class="online-service-title" href="#" target="_blank">
+        <div class="social-qq-pure"></div>
+        <h4>在线客服</h4>
+    </a>
+</div>
+
+<script>
+$(function(){
+    //输入框获得失去焦点
+    $(".input-div .iptext").focus(function(){
+        $(this).val("");
+    })
+    $(".input-div .iptext").blur(function(){
+        if($(this).val().trim().length==0){
+            $(this).val($(this).attr("data-default"));
+        }
+    })
+
+    //登陆注册切换
+    $(".before-login-tab>span").click(function(){
+        var nIndex=$(this).index();
+        $(this).addClass("current").siblings().removeClass("current");
+        $(".before-login-con>div").eq(nIndex).addClass("current").siblings().removeClass("current");
+    })
+
+    //演示 显示错误提示
+    $(".login-btn").click(function(){
+        $(".error-tips").show();
+    })
+
+    //公告动画
+    var noticeAnimate=function(){
+        var defaults = {
+            durtion:5000
+        }
+        var firstClone=$(".in-notices>ul>li").eq(0).clone(true,true);
+        $(".in-notices>ul").append(firstClone);
+        var len=$(".in-notices>ul>li").length;
+        var litH=$(".in-notices>ul>li").height();
+        var ulHei=litH*len;
+        $(".in-notices>ul").css({"height":ulHei,"top":0})
+        var step=0;
+        function autoMove(){
+            $(".in-notices>ul").animate({"top":-step*litH},500, function () {
+                if(step==len-1){
+                    step=1;
+                    $(".in-notices>ul").css("top",0)
+                }else{
+                    step++;
+                }
+            });
+            setTimeout(autoMove,defaults.durtion)
+        }
+        autoMove();
+    }
+    var notice=new noticeAnimate();
+
+    //投资动画
+    var touziAnimate=function(){
+        var defaults = {
+            durtion:8000
+        }
+        var firstClone=$(".touzi-con-detail>ul>li").eq(0).clone(true,true);
+        $(".touzi-con-detail>ul").append(firstClone);
+        var len=$(".touzi-con-detail>ul>li").length;
+        var litW=$(".touzi-con-detail>ul>li").width();
+        var ulWid=litW*len;
+        $(".touzi-con-detail>ul").css({"width":ulWid,"left":0})
+        var step=0;
+        function autoMove(){
+            $(".touzi-con-detail>ul").animate({"left":-step*litW},500, function () {
+                if(step==len-1){
+                    step=1;
+                    $(".touzi-con-detail>ul").css("left",0)
+                }else{
+                    step++;
+                }
+            });
+            setTimeout(autoMove,defaults.durtion)
+        }
+        autoMove();
+    }
+   var touzi=new touziAnimate();
+
+   //pad导航菜单
+    $(".menu-operate").click(function(){
+        $(".header .nav").slideToggle();
+    })
+    if(parseInt($(window).width())<800){
+        $(".header .nav>ul>li").click(function(){
+            $(".header .nav").slideUp();
+        })
+    }
+})
+</script>
+</body>
+</html>
